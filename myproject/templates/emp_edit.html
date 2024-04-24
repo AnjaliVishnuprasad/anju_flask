@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Edit Profile</h1>
+    
+    <form action="/empupdate/{{ data[0] }}" method="post">
+
+        Name <input type="text" name="fname" id="" value="{{data[1]}}"><br><br>
+        Email <input type="email" name="email" id="" value="{{data[2]}}"><br><br>
+        Phone <input type="number" name="phone" id="" value="{{data[3]}}"><br><br>
+        <input type="submit" value="Update">
+    </form>
+
+
+</body>
+
+</html>
